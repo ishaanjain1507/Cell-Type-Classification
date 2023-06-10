@@ -21,3 +21,12 @@
   - Dense, 64 neurons, activation function as relu,
   - Dense, 32 neurons, activation function as relu,
   - Dense, 6 neurons, activation function as softmax
+- The model is compiled with 'adam' optimizer andloss funtion as 'categorical_crossentropy'.
+- The model is trained for 15 epochs.
+
+## Evaluation and Metrics
+
+- The true and predicted labels are plotted as bar graph.
+- The wrong predictions in each label is also plotted.
+- The confusion matrix is plotted as a heatmap
+- TensorBoard was used to keep the log of accuracy and loss. That is also plotted. 
